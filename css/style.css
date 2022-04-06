@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post{
+    width: 800px;
+    background-color: darkgray;
+    display: flex;
+    padding: 20px;
+}
+.post-item{
+    width: 33.333%;
+    background-color: #ffffff;
+    border: 1.5px solid #a31111;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+img{
+    width: 100%;
+}
+.content{
+    padding: 10px;
+}
+span{
+    padding: 1px 10px;
+    background-color: green;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 22px;
+    color: chocolate;
+}
+.time{
+  font-size: inherit;
+  margin: 8px 0;
+  font-size: 14px;
+}
